@@ -17,6 +17,8 @@ need to downgrade it), npm 9.6.2, Angular CLI 15.2.4 in Visual Studio Code 1.78.
 Before you start it, you should have the back end part of the app already running (see above). Open angular-
 bookstore folder in VSC and in its terminal run the command npm start. The compilation process should start
 and after the message about successfull compilation appeared in the terminal open your browser and enter 
-http://localhost:4200 in navigation bar.  
+http://localhost:4200 in navigation bar.
 
- 
+P.S. After I tried to run the application downloaded from this repository on my local machine in Visual Studio
+Code I received compilation errors. Modification of package.json dependencies to following versions were helpful: 
+"jasmine-core": "~3.8.0" and "karma-jasmine-html-reporter": "^1.6.0".
